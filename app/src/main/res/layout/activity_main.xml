@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    >
+
+    <ImageView
+        android:id="@+id/main_img"
+        android:layout_width="match_parent"
+        android:layout_height="380dp"
+        android:layout_gravity="center_horizontal"
+        android:src="#D1CCCC"
+        />
+
+    <Button
+        android:id="@+id/main_select_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="选择图片"
+        android:layout_marginTop="20dp"
+        />
+
+</LinearLayout>
